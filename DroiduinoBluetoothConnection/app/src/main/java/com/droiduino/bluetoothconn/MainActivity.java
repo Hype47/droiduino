@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         progressBar.setVisibility(View.GONE);
         final TextView textViewInfo = findViewById(R.id.textViewInfo);
         final Button buttonToggle = findViewById(R.id.buttonToggle);
-        buttonToggle.setEnabled(true);
+        buttonToggle.setEnabled(false);
         final ImageView imageView = findViewById(R.id.imageView);
         imageView.setBackgroundColor(getResources().getColor(R.color.colorOff));
 
@@ -75,9 +75,8 @@ public class MainActivity extends AppCompatActivity {
             createConnectThread.start();
         }
 
-
         /*
-        Second most important piece of Code
+        Second most important piece of Code. GUI Handler
          */
         handler = new Handler(Looper.getMainLooper()) {
             @Override
@@ -89,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
                                 toolbar.setSubtitle("Connected to " + deviceName);
                                 progressBar.setVisibility(View.GONE);
                                 buttonConnect.setEnabled(true);
+                                buttonToggle.setEnabled(true);
                                 break;
                             case -1:
                                 toolbar.setSubtitle("Device fails to connect");
@@ -99,17 +99,17 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case MESSAGE_READ:
-////                        int standardSize1 = 8;
-////                        int standardSize2 = 14;
-//                        String uidInfo;
-//                        String deviceMsg = msg.obj.toString();
-//
-////                        if (deviceMsg.length() < standardSize2) {
-////                            deviceMsg = "0" + deviceMsg;
-////                        }
-//                        uidInfo = deviceMsg.substring(0,2) + " " + deviceMsg.substring(2,4) + " " + deviceMsg.substring(4,6) + " " + deviceMsg.substring(6,8)
-//                                + " " + deviceMsg.substring(8,10) + " " + deviceMsg.substring(10,12) + " " + deviceMsg.substring(12);
-//                        textViewInfo.setText("UID : " + uidInfo);
+                        String arduinoMsg = msg.obj.toString(); // Read message from Arduino
+                        switch (arduinoMsg.toLowerCase()){
+                            case "led is turned on":
+                                imageView.setBackgroundColor(getResources().getColor(R.color.colorOn));
+                                textViewInfo.setText("Arduino Message : " + arduinoMsg);
+                                break;
+                            case "led is turned off":
+                                imageView.setBackgroundColor(getResources().getColor(R.color.colorOff));
+                                textViewInfo.setText("Arduino Message : " + arduinoMsg);
+                                break;
+                        }
                         break;
                 }
             }
@@ -124,44 +124,45 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Toggle Button
+        // Button to ON/OFF LED on Arduino Board
         buttonToggle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String cmdText = null;
                 String btnState = buttonToggle.getText().toString().toLowerCase();
                 switch (btnState){
                     case "turn on":
-                        imageView.setBackgroundColor(getResources().getColor(R.color.colorOn));
                         buttonToggle.setText("Turn Off");
+                        cmdText = "<turn on>"; // Command to turn on LED on Arduino. Must match with the command in Arduino code
                         break;
                     case "turn off":
-                        imageView.setBackgroundColor(getResources().getColor(R.color.colorOff));
                         buttonToggle.setText("Turn On");
+                        cmdText = "<turn off>"; // Command to turn off LED on Arduino. Must match with the command in Arduino code
                         break;
                 }
+                // Send command to Arduino board
+                connectedThread.write(cmdText);
             }
         });
-
-
-
     }
 
     /* ============================ Thread to Create Bluetooth Connection =================================== */
     public static class CreateConnectThread extends Thread {
 
         public CreateConnectThread(BluetoothAdapter bluetoothAdapter, String address) {
-            // Use a temporary object that is later assigned to mmSocket
-            // because mmSocket is final.
+            /*
+            Use a temporary object that is later assigned to mmSocket
+            because mmSocket is final.
+             */
             BluetoothDevice bluetoothDevice = bluetoothAdapter.getRemoteDevice(address);
             BluetoothSocket tmp = null;
             UUID uuid = bluetoothDevice.getUuids()[0].getUuid();
 
             try {
-                // Get a BluetoothSocket to connect with the given BluetoothDevice.
-                // MY_UUID is the app's UUID string, also used in the server code.
                 /*
+                Get a BluetoothSocket to connect with the given BluetoothDevice.
                 Due to Android device varieties,the method below may not work fo different devices.
-                You shoul try using other methods i.e. :
+                You should try using other methods i.e. :
                 tmp = device.createRfcommSocketToServiceRecord(MY_UUID);
                  */
                 tmp = bluetoothDevice.createInsecureRfcommSocketToServiceRecord(uuid);
@@ -215,9 +216,6 @@ public class MainActivity extends AppCompatActivity {
         private final BluetoothSocket mmSocket;
         private final InputStream mmInStream;
         private final OutputStream mmOutStream;
-        private  boolean createString = false;
-        private String readMessage;
-
 
         public ConnectedThread(BluetoothSocket socket) {
             mmSocket = socket;
@@ -241,28 +239,19 @@ public class MainActivity extends AppCompatActivity {
             // Keep listening to the InputStream until an exception occurs
             while (true) {
                 try {
-                    // Read from the InputStream
+                    /*
+                    Read from the InputStream from Arduino until termination character is reached.
+                    Then send the whole String message to GUI Handler.
+                     */
                     buffer[bytes] = (byte) mmInStream.read();
-                    String readByte = new String(buffer, StandardCharsets.UTF_8).substring(0,1);
-
-                    //
-                    switch (readByte){
-                        case "<":
-                            createString = true;
-                            readMessage = "";
-                            break;
-                        case ">":
-                            createString = false;
-                            break;
-                    }
-
-                    //
-                    if (createString){
-                        readMessage = readMessage + readByte;
+                    String readMessage;
+                    if (buffer[bytes] == '\n'){
+                        readMessage = new String(buffer,0,bytes);
+                        Log.e("Arduino Message",readMessage);
+                        handler.obtainMessage(MESSAGE_READ,readMessage).sendToTarget();
+                        bytes = 0;
                     } else {
-                        Log.e("UID Length", readMessage.length() + " characters");
-                        String readUID = readMessage.substring(1).trim();
-                        handler.obtainMessage(MESSAGE_READ,readUID).sendToTarget();
+                        bytes++;
                     }
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -292,9 +281,13 @@ public class MainActivity extends AppCompatActivity {
     /* ============================ Terminate Connection at BackPress ====================== */
     @Override
     public void onBackPressed() {
+        // Terminate Bluetooth Connection and close app
         if (createConnectThread != null){
             createConnectThread.cancel();
         }
-        finish();
+        Intent a = new Intent(Intent.ACTION_MAIN);
+        a.addCategory(Intent.CATEGORY_HOME);
+        a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(a);
     }
 }
