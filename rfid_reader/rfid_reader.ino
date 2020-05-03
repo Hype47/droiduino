@@ -1,5 +1,5 @@
 /*
- * Connect MFRC522 RFID Reader module
+ * Connect to MFRC522 RFID Reader module
  * by Droiduino
  */
 
