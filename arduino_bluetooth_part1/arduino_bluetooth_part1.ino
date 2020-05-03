@@ -2,6 +2,7 @@
  * Tutorial to connect HC05 Bluetooth Module to Arduino board
  * by Droiduino
  * 
+ * ver 1.0
  */
 
 const int ledPin = 13; // Built in LED in Arduino board
