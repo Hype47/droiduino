@@ -133,11 +133,13 @@ public class MainActivity extends AppCompatActivity {
                 switch (btnState){
                     case "turn on":
                         buttonToggle.setText("Turn Off");
-                        cmdText = "<turn on>"; // Command to turn on LED on Arduino. Must match with the command in Arduino code
+                        // Command to turn on LED on Arduino. Must match with the command in Arduino code
+                        cmdText = "<turn on>";
                         break;
                     case "turn off":
                         buttonToggle.setText("Turn On");
-                        cmdText = "<turn off>"; // Command to turn off LED on Arduino. Must match with the command in Arduino code
+                        // Command to turn off LED on Arduino. Must match with the command in Arduino code
+                        cmdText = "<turn off>";
                         break;
                 }
                 // Send command to Arduino board
