@@ -41,10 +41,5 @@ public class SelectDeviceActivity extends AppCompatActivity {
             recyclerView.setAdapter(deviceListAdapter);
             recyclerView.setItemAnimator(new DefaultItemAnimator());
         }
-
-
-
-
-
     }
 }

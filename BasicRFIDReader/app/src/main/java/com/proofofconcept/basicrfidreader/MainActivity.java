@@ -94,12 +94,8 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case MESSAGE_READ:
-                        String uidInfo;
                         String deviceMsg = msg.obj.toString();
-                        // Parsing message from Bluetooth
-                        uidInfo = deviceMsg.substring(0,2) + " " + deviceMsg.substring(2,4) + " " + deviceMsg.substring(4,6) + " " + deviceMsg.substring(6,8)
-                                + " " + deviceMsg.substring(8,10) + " " + deviceMsg.substring(10,12) + " " + deviceMsg.substring(12);
-                        textViewInfo.setText("UID : " + uidInfo);
+                        textViewInfo.setText("UID : " + deviceMsg);
                         break;
                 }
             }
