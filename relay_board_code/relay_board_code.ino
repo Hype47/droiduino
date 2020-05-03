@@ -1,3 +1,9 @@
+/*
+ * Code to control a relay board
+ * by Droiduino
+ * 
+ */
+
 
 const int relayPin1 = 8; // forward
 const int relayPin2 = 9; // reverse
@@ -60,51 +66,5 @@ void loop() {
         }
     }
   }
-
-//  switch(cmdInt){
-//    case 123:
-//      digitalWrite(relayPin1, LOW);
-//      digitalWrite(relayPin2, HIGH);
-//      break;
-//    case 345:
-//      digitalWrite(relayPin1, HIGH);
-//      digitalWrite(relayPin2, LOW);
-//      break;
-//    case 567:
-//      digitalWrite(relayPin3, LOW);
-//      digitalWrite(relayPin4, HIGH);
-//      break;  
-//    case 789:
-//      digitalWrite(relayPin3, HIGH);
-//      digitalWrite(relayPin4, LOW);
-//      break;  
-//    case 1000000:
-//      digitalWrite(relayPin1, HIGH);
-//      digitalWrite(relayPin2, HIGH);
-//      break;
-//    
-//  }
   
-//  digitalWrite(relayPin1, LOW);
-//  digitalWrite(relayPin2, HIGH);
-//  digitalWrite(relayPin3, HIGH);
-//  digitalWrite(relayPin4, HIGH);
-//  delay(1000);
-//  digitalWrite(relayPin1, HIGH);
-//  digitalWrite(relayPin2, LOW);
-//  digitalWrite(relayPin3, HIGH);
-//  digitalWrite(relayPin4, HIGH);
-//  delay(1000);
-//  digitalWrite(relayPin1, HIGH);
-//  digitalWrite(relayPin2, HIGH);
-//  digitalWrite(relayPin3, LOW);
-//  digitalWrite(relayPin4, HIGH);
-//  delay(1000);
-//  digitalWrite(relayPin1, HIGH);
-//  digitalWrite(relayPin2, HIGH);
-//  digitalWrite(relayPin3, HIGH);
-//  digitalWrite(relayPin4, LOW);
-//  delay(1000);
-  
-
 }
