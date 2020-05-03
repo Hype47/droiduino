@@ -1,5 +1,7 @@
 /*
- * 
+ *  Code for hacking toy car's RC Transmitter
+ *  by Droiduino
+ *  
  */
 
 
@@ -129,26 +131,4 @@ void loop() {
 //    
 //  }
   
-//  digitalWrite(relayPin1, LOW);
-//  digitalWrite(relayPin2, HIGH);
-//  digitalWrite(relayPin3, HIGH);
-//  digitalWrite(relayPin4, HIGH);
-//  delay(1000);
-//  digitalWrite(relayPin1, HIGH);
-//  digitalWrite(relayPin2, LOW);
-//  digitalWrite(relayPin3, HIGH);
-//  digitalWrite(relayPin4, HIGH);
-//  delay(1000);
-//  digitalWrite(relayPin1, HIGH);
-//  digitalWrite(relayPin2, HIGH);
-//  digitalWrite(relayPin3, LOW);
-//  digitalWrite(relayPin4, HIGH);
-//  delay(1000);
-//  digitalWrite(relayPin1, HIGH);
-//  digitalWrite(relayPin2, HIGH);
-//  digitalWrite(relayPin3, HIGH);
-//  digitalWrite(relayPin4, LOW);
-//  delay(1000);
-  
-
 }
