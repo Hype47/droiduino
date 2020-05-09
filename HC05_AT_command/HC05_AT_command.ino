@@ -14,7 +14,7 @@
  */
 
 /*
- * AT Command : HC05+NAME=<new device name>
+ * AT Command : AT+NAME=<new device name>
  */
 
 #include <SoftwareSerial.h>
