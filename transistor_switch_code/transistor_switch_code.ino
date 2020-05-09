@@ -4,13 +4,14 @@
  *  
  */
 
-
 const int relayPin1 = 8; // forward
 const int relayPin2 = 9; // reverse
 const int relayPin3 = 10; // turn left
 const int relayPin4 = 11; // turn right
 String cmdText; // Command message from Android
 int cmdInt;
+
+const int ledPin = 13;
 
 
 void setup() {
@@ -23,6 +24,9 @@ void setup() {
   pinMode(relayPin4, OUTPUT);
   digitalWrite(relayPin3, LOW);
   digitalWrite(relayPin4, LOW);
+
+  pinMode(ledPin, OUTPUT);
+  digitalWrite(ledPin, LOW);
 
   // Bluetooth Setup
   Serial.begin(9600); // Default communication rate of the Bluetooth module
@@ -49,6 +53,7 @@ void loop() {
   if (cmdInt == 119){
     digitalWrite(relayPin1, HIGH);
     digitalWrite(relayPin2, LOW);
+    digitalWrite(ledPin, HIGH);
   } else {
       if (cmdInt == 115){
         digitalWrite(relayPin1, LOW);
@@ -57,6 +62,7 @@ void loop() {
           if (cmdInt == 120){
             digitalWrite(relayPin1, LOW);
             digitalWrite(relayPin2, LOW);
+            digitalWrite(ledPin, LOW);
         }
     }
   }

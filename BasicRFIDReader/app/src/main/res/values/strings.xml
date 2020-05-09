@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Basic RFID Reader</string>
+    <string name="app_name">Droiduino RFID Reader</string>
+
+    <!-- AdMob Config -->
+    <string name="admob_appid">ca-app-pub-5442924543007588~2544431078</string>
+    <string name="test_banner_ads_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_mainactivity">ca-app-pub-5442924543007588/6100532703</string>
 </resources>

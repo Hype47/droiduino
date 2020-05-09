@@ -18,6 +18,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.widget.Toolbar;
 
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -42,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         // UI Initialization
         final Button buttonConnect = findViewById(R.id.buttonConnect);
