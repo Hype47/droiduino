@@ -10,7 +10,6 @@
  * TXD --> pin 10
  * RXD --> pin 11
  * GND --> GND
- * https://forum.chumbaka.asia/blog/2018/03/23/renaming-hc-05/
  */
 
 /*
