@@ -13,7 +13,6 @@ int cmdInt;
 
 const int ledPin = 13;
 
-
 void setup() {
   // Pin and RC Channel setup
   pinMode(relayPin1, OUTPUT);
@@ -37,12 +36,7 @@ void loop() {
   // Read command from Android
   if (Serial.available() > 0){
     cmdInt = Serial.read();
-//    cmdText = Serial.read();
-//    cmdText = Serial.readString();
-//    cmdInt = cmdText.toInt();
-//    Serial.println(cmdText);
-    Serial.println(cmdInt);
-
+    Serial.println(cmdInt); // For debug purpose
   }
 
   /*
@@ -50,7 +44,7 @@ void loop() {
    */
 
   // Forward Reverse
-  if (cmdInt == 119){
+  if (cmdInt == 119){ 
     digitalWrite(relayPin1, HIGH);
     digitalWrite(relayPin2, LOW);
     digitalWrite(ledPin, HIGH);
@@ -81,60 +75,5 @@ void loop() {
             digitalWrite(relayPin4, LOW);
         }
     }
-  }
-
-//  if (cmdText == "<forward>"){
-//    digitalWrite(relayPin1, LOW);
-//    digitalWrite(relayPin2, HIGH);
-//  } else {
-//      if (cmdText == "<reverse>"){
-//        digitalWrite(relayPin1, HIGH);
-//        digitalWrite(relayPin2, LOW);
-//      } else {
-//          if (cmdText == "<stop moving>"){
-//            digitalWrite(relayPin1, HIGH);
-//            digitalWrite(relayPin2, HIGH);
-//        }
-//    }
-//  }
-
-//  if (cmdText == "<left>"){
-//    digitalWrite(relayPin3, LOW);
-//    digitalWrite(relayPin4, HIGH);
-//  } else {
-//      if (cmdText == "<right>"){
-//        digitalWrite(relayPin3, HIGH);
-//        digitalWrite(relayPin4, LOW);
-//      } else {
-//          if (cmdText == "<stop turning>"){
-//            digitalWrite(relayPin3, HIGH);
-//            digitalWrite(relayPin4, HIGH);
-//        }
-//    }
-//  }
-
-//  switch(cmdInt){
-//    case 123:
-//      digitalWrite(relayPin1, LOW);
-//      digitalWrite(relayPin2, HIGH);
-//      break;
-//    case 345:
-//      digitalWrite(relayPin1, HIGH);
-//      digitalWrite(relayPin2, LOW);
-//      break;
-//    case 567:
-//      digitalWrite(relayPin3, LOW);
-//      digitalWrite(relayPin4, HIGH);
-//      break;  
-//    case 789:
-//      digitalWrite(relayPin3, HIGH);
-//      digitalWrite(relayPin4, LOW);
-//      break;  
-//    case 1000000:
-//      digitalWrite(relayPin1, HIGH);
-//      digitalWrite(relayPin2, HIGH);
-//      break;
-//    
-//  }
-  
+  }  
 }
