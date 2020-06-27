@@ -41,6 +41,11 @@ void loop() {
 
   /*
    * Use Unsigned number from ASCII table
+   * "w" = 119
+   * "s" = 115
+   * "a" = 97
+   * "d" = 100
+   * 
    */
 
   // Forward Reverse

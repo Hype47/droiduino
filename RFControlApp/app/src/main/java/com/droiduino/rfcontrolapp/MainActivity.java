@@ -1,9 +1,7 @@
-package com.droiduino.droiduinorccontrol;
+package com.droiduino.rfcontrolapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
-import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
@@ -13,12 +11,12 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
+import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.TextView;
+
+import androidx.appcompat.widget.Toolbar;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -30,7 +28,7 @@ import static android.content.ContentValues.TAG;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageButton btnUp,btnDown,btnLeft,btnRight;
+    private String msgA1,msgA2,msgA3;
 
     private String deviceName = null;
     private String deviceAddress;
@@ -42,26 +40,34 @@ public class MainActivity extends AppCompatActivity {
     private final static int CONNECTING_STATUS = 1; // used in bluetooth handler to identify message status
     private final static int MESSAGE_READ = 2; // used in bluetooth handler to identify message update
 
-    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // UI Initialization
-        final Button buttonConnect = findViewById(R.id.buttonConnect);
+        // Bluetooth Command
+        msgA1 = "a74f689c-a66c-11ea-bb37-0242ac130002";
+        msgA2 = "744c7b04-a65f-11ea-bb37-0242ac130002";
+        msgA3 = "08d9d004-a675-11ea-bb37-0242ac130002";
+
+        // Instantiate the UI elements
         final Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setSubtitle("version " + BuildConfig.VERSION_NAME);
+        toolbar.setSubtitle("Version 1.0.0");
+        EditText editA1 = findViewById(R.id.editMsgA1);
+        EditText editA2 = findViewById(R.id.editMsgA2);
+        EditText editA3 = findViewById(R.id.editMsgA3);
+        editA1.setText(msgA1);
+        editA2.setText(msgA2);
+        editA3.setText(msgA3);
+        final Button btnConnect = findViewById(R.id.buttonConnect);
+        final Button btnA1 = findViewById(R.id.buttonA1);
+        final Button btnA2 = findViewById(R.id.buttonA2);
+        final Button btnA3 = findViewById(R.id.buttonA3);
+        btnA1.setEnabled(false);
+        btnA2.setEnabled(false);
+        btnA3.setEnabled(false);
         final ProgressBar progressBar = findViewById(R.id.progressBar);
         progressBar.setVisibility(View.GONE);
-        btnUp = findViewById(R.id.imageButtonUp);
-        btnDown = findViewById(R.id.imageButtonDown);
-        btnLeft = findViewById(R.id.imageButtonLeft);
-        btnRight = findViewById(R.id.imageButtonRight);
-        btnUp.setEnabled(false);
-        btnDown.setEnabled(false);
-        btnLeft.setEnabled(false);
-        btnRight.setEnabled(false);
 
         // If a bluetooth device has been selected from SelectDeviceActivity
         deviceName = getIntent().getStringExtra("deviceName");
@@ -71,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             // Show progress and connection status
             toolbar.setSubtitle("Connecting to " + deviceName + "...");
             progressBar.setVisibility(View.VISIBLE);
-            buttonConnect.setEnabled(false);
+            btnConnect.setEnabled(false);
 
             /*
             This is the most important piece of code. When "deviceName" is found
@@ -95,16 +101,18 @@ public class MainActivity extends AppCompatActivity {
                             case 1:
                                 toolbar.setSubtitle("Connected to " + deviceName);
                                 progressBar.setVisibility(View.GONE);
-                                buttonConnect.setEnabled(true);
-                                btnUp.setEnabled(true);
-                                btnDown.setEnabled(true);
-                                btnLeft.setEnabled(true);
-                                btnRight.setEnabled(true);
+                                btnConnect.setEnabled(true);
+                                btnA1.setEnabled(true);
+                                btnA2.setEnabled(true);
+                                btnA3.setEnabled(true);
                                 break;
                             case -1:
                                 toolbar.setSubtitle("Device fails to connect");
                                 progressBar.setVisibility(View.GONE);
-                                buttonConnect.setEnabled(true);
+                                btnConnect.setEnabled(true);
+                                btnA1.setEnabled(false);
+                                btnA2.setEnabled(false);
+                                btnA3.setEnabled(false);
                                 break;
                         }
                         break;
@@ -115,8 +123,8 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        // Select Bluetooth Device
-        buttonConnect.setOnClickListener(new View.OnClickListener() {
+        // Call List of devices
+        btnConnect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, SelectDeviceActivity.class);
@@ -124,82 +132,34 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Movement Buttons code
-        // .... Forward
-        btnUp.setOnTouchListener(new View.OnTouchListener() {
+        /*
+            Sending command message
+         */
+
+        // Button A1
+        btnA1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onTouch(View view, MotionEvent motionEvent) {
-                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
-                    String textCommand = "w";
-                    Log.e("RC Command", textCommand);
-                    connectedThread.write(textCommand);
-                } else {
-                    if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
-                        String textCommand = "x";
-                        Log.e("RC Command", textCommand);
-                        connectedThread.write(textCommand);
-                    }
-                }
-                return true;
+            public void onClick(View view) {
+                connectedThread.write("<" + msgA1 + ">");
             }
         });
 
-        // .... Reverse ....
-        btnDown.setOnTouchListener(new View.OnTouchListener() {
+        // Button A2
+        btnA2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onTouch(View view, MotionEvent motionEvent) {
-                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
-                    String textCommand = "s";
-                    Log.e("RC Command", textCommand);
-                    connectedThread.write(textCommand);
-                } else {
-                    if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
-                        String textCommand = "x";
-                        Log.e("RC Command", textCommand);
-                        connectedThread.write(textCommand);
-                    }
-                }
-                return true;
+            public void onClick(View view) {
+                connectedThread.write("<" + msgA2 + ">");
             }
         });
 
-        // .... turn left...
-        btnLeft.setOnTouchListener(new View.OnTouchListener() {
+        // Button A3
+        btnA3.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onTouch(View view, MotionEvent motionEvent) {
-                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
-                    String textCommand = "a";
-                    Log.e("RC Command", textCommand);
-                    connectedThread.write(textCommand);
-                } else {
-                    if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
-                        String textCommand = "z";
-                        Log.e("RC Command", textCommand);
-                        connectedThread.write(textCommand);
-                    }
-                }
-                return true;
+            public void onClick(View view) {
+                connectedThread.write("<" + msgA3 + ">");
             }
         });
 
-        // .... turn right...
-        btnRight.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View view, MotionEvent motionEvent) {
-                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
-                    String textCommand = "d";
-                    Log.e("RC Command", textCommand);
-                    connectedThread.write(textCommand);
-                } else {
-                    if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
-                        String textCommand = "z";
-                        Log.e("RC Command", textCommand);
-                        connectedThread.write(textCommand);
-                    }
-                }
-                return true;
-            }
-        });
     }
 
     /* ============================ Thread to Create Connection =================================== */
