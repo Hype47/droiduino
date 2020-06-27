@@ -33,10 +33,10 @@ public class ListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     }
 
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position){
-        // Get Device Name
+        // Get content of Device List
         String deviceName = deviceList.get(position);
 
-        // Assign Device Name to the List
+        // Assign the content to each RecyclerView row
         ViewHolder itemHolder = (ViewHolder) holder;
         itemHolder.textView.setText(deviceName);
     }

@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         // Instantiate UI
         RecyclerView recyclerView = findViewById(R.id.deviceList);
 
-        // Setup RecyclerView
+        // Setting Up RecyclerView
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         // Connect RecyclerView to the List Adapter
