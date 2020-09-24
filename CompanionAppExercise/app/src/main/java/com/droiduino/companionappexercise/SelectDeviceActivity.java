@@ -1,4 +1,4 @@
-package com.droiduino.companionappcourse;
+package com.droiduino.companionappexercise;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -22,7 +22,7 @@ public class SelectDeviceActivity extends AppCompatActivity {
         // Instantiate RecyclerView
         RecyclerView recyclerView = findViewById(R.id.deviceList);
 
-        // Initialize Bluetooth adapter
+        // Initialize Bluetooth Adapter
         BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
         // Fetch the list from Android device's cache
@@ -39,10 +39,7 @@ public class SelectDeviceActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         // Connecting to Data Source and Content Layout
-        // Data source is the list of Bluetooth devices that are paired with Android Device
         ListAdapter listAdapter = new ListAdapter(this,deviceList);
         recyclerView.setAdapter(listAdapter);
-
-
     }
 }

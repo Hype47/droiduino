@@ -8,9 +8,9 @@
  /*
    * Char to Integer conversion according to ASCII Table
    * this is used to convert command from Android
-   * "w" = 119
-   * "s" = 115
-   * "d" = 100
+   * "w" = 119 --> turn on LED
+   * "s" = 115 --> turn off LED
+   * "d" = 100 --> make the LED blinking
    * 
    */
 
