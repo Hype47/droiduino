@@ -1,0 +1,1026 @@
+state;county;current_votes;total_votes;percent
+Delaware;Kent County;85415;87025;100
+Delaware;New Castle County;280039;287633;100
+Delaware;Sussex County;127181;129352;100
+Indiana;Adams County;14153;14238;99
+Indiana;Allen County;168274;164793;95
+Indiana;Bartholomew County;36036;36389;95
+Indiana;Benton County;4100;3137;99
+Indiana;Blackford County;5279;5193;95
+Indiana;Boone County;38492;38500;99
+Indiana;Brown County;8863;8886;99
+Indiana;Carroll County;9510;9274;95
+Indiana;Cass County;15141;15247;95
+Indiana;Clark County;57411;58040;99
+Indiana;Clay County;12186;7777;99
+Indiana;Clinton County;12891;12961;99
+Indiana;Crawford County;4891;4928;95
+Indiana;Daviess County;11860;11971;99
+Indiana;Dearborn County;25291;26431;95
+Indiana;Decatur County;12254;12261;95
+Indiana;DeKalb County;19493;19656;99
+Indiana;Delaware County;47698;49722;95
+Indiana;Dubois County;21588;21805;99
+Indiana;Elkhart County;73200;73200;99
+Indiana;Fayette County;10054;10226;95
+Indiana;Floyd County;41570;41239;95
+Indiana;Fountain County;7947;8039;95
+Indiana;Franklin County;11822;12018;98
+Indiana;Fulton County;9123;9110;99
+Indiana;Gibson County;16130;16165;99
+Indiana;Grant County;27021;27160;95
+Indiana;Greene County;14694;14726;99
+Indiana;Hamilton County;193538;172767;95
+Indiana;Hancock County;42547;39869;95
+Indiana;Harrison County;20167;19914;95
+Indiana;Hendricks County;87857;88430;99
+Indiana;Henry County;21160;18244;99
+Indiana;Howard County;40410;40619;99
+Indiana;Huntington County;17730;17215;95
+Indiana;Jackson County;19136;18857;95
+Indiana;Jasper County;15371;14355;95
+Indiana;Jay County;8405;8466;99
+Indiana;Jefferson County;14532;14726;99
+Indiana;Jennings County;12151;12150;99
+Indiana;Johnson County;77256;74480;95
+Indiana;Knox County;15839;16027;99
+Indiana;Kosciusko County;35619;35846;99
+Indiana;LaGrange County;10575;10265;95
+Indiana;Lake County;217139;225350;95
+Indiana;LaPorte County;48605;48504;95
+Indiana;Lawrence County;20868;20551;95
+Indiana;Madison County;51682;57847;89
+Indiana;Marion County;390124;405857;95
+Indiana;Marshall County;19801;19925;95
+Indiana;Martin County;5118;5155;99
+Indiana;Miami County;14361;14467;95
+Indiana;Monroe County;62506;65468;95
+Indiana;Montgomery County;17183;16164;99
+Indiana;Morgan County;35942;36214;99
+Indiana;Newton County;6556;6218;95
+Indiana;Noble County;19088;19217;99
+Indiana;Ohio County;3186;3164;99
+Indiana;Orange County;8759;2682;99
+Indiana;Owen County;9844;9915;99
+Indiana;Parke County;6970;7020;99
+Indiana;Perry County;8646;8734;99
+Indiana;Pike County;6141;6413;95
+Indiana;Porter County;86308;85058;95
+Indiana;Posey County;13221;13264;99
+Indiana;Pulaski County;5768;5813;99
+Indiana;Putnam County;16520;15790;95
+Indiana;Randolph County;10993;11222;95
+Indiana;Ripley County;14207;13745;95
+Indiana;Rush County;7880;7741;95
+Indiana;St. Joseph County;114656;123259;93
+Indiana;Scott County;9970;9773;95
+Indiana;Shelby County;19867;20017;99
+Indiana;Spencer County;10651;10781;99
+Indiana;Starke County;10183;10309;99
+Indiana;Steuben County;16076;16175;99
+Indiana;Sullivan County;8912;9004;99
+Indiana;Switzerland County;4080;3969;95
+Indiana;Tippecanoe County;71180;70017;95
+Indiana;Tipton County;8076;8124;99
+Indiana;Union County;3458;3531;95
+Indiana;Vanderburgh County;77372;79897;95
+Indiana;Vermillion County;7386;7394;99
+Indiana;Vigo County;43259;43911;95
+Indiana;Wabash County;14511;14598;99
+Indiana;Warren County;4458;4217;95
+Indiana;Warrick County;33518;32605;95
+Indiana;Washington County;12069;12214;95
+Indiana;Wayne County;27619;27447;95
+Indiana;Wells County;14050;14080;99
+Indiana;White County;11135;10787;95
+Indiana;Whitley County;17446;17216;95
+Missouri;Adair County;10292;10337;99
+Missouri;Andrew County;9733;9774;99
+Missouri;Atchison County;2770;2770;99
+Missouri;Audrain County;10603;10660;99
+Missouri;Barry County;15527;15301;95
+Missouri;Barton County;6032;6077;99
+Missouri;Bates County;8356;8414;95
+Missouri;Benton County;10427;10047;95
+Missouri;Bollinger County;5943;5981;99
+Missouri;Boone County;90592;92255;95
+Missouri;Buchanan County;36394;38486;95
+Missouri;Butler County;18000;18082;95
+Missouri;Caldwell County;4695;4517;95
+Missouri;Callaway County;21096;21096;99
+Missouri;Camden County;24692;24774;99
+Missouri;Cape Girardeau County;40106;40742;95
+Missouri;Carroll County;4498;4569;95
+Missouri;Carter County;2861;2906;98
+Missouri;Cass County;57102;57524;99
+Missouri;Cedar County;7025;6588;95
+Missouri;Chariton County;4071;4074;99
+Missouri;Christian County;46642;44823;95
+Missouri;Clark County;3372;3372;99
+Missouri;Clay County;125978;126618;99
+Missouri;Clinton County;10812;10695;95
+Missouri;Cole County;39546;41111;95
+Missouri;Cooper County;8666;8710;99
+Missouri;Crawford County;10932;10393;95
+Missouri;Dade County;4105;4123;99
+Missouri;Dallas County;8094;8122;99
+Missouri;Daviess County;3850;3884;99
+Missouri;DeKalb County;4815;4813;95
+Missouri;Dent County;7113;7115;95
+Missouri;Douglas County;6965;6994;99
+Missouri;Dunklin County;10309;11158;92
+Missouri;Franklin County;53339;54085;95
+Missouri;Gasconade County;7870;7806;95
+Missouri;Gentry County;3219;3239;99
+Missouri;Greene County;137470;138074;99
+Missouri;Grundy County;4426;4639;95
+Missouri;Harrison County;3800;3872;95
+Missouri;Henry County;10703;10605;95
+Missouri;Hickory County;5061;4949;95
+Missouri;Holt County;2333;2468;95
+Missouri;Howard County;5064;5089;99
+Missouri;Howell County;18522;18287;95
+Missouri;Iron County;4531;4473;95
+Missouri;Jackson County;328951;342735;95
+Missouri;Jasper County;52137;52157;95
+Missouri;Jefferson County;115661;116629;99
+Missouri;Johnson County;22997;23134;99
+Missouri;Knox County;1836;1856;99
+Missouri;Laclede County;16763;16816;95
+Missouri;Lafayette County;17024;17083;99
+Missouri;Lawrence County;17807;17930;99
+Missouri;Lewis County;4556;4669;95
+Missouri;Lincoln County;28704;26151;95
+Missouri;Linn County;5670;5854;95
+Missouri;Livingston County;6707;6727;95
+Missouri;McDonald County;8966;8966;99
+Missouri;Macon County;7796;7834;99
+Missouri;Madison County;5653;5671;99
+Missouri;Maries County;4770;4774;99
+Missouri;Marion County;13276;13370;99
+Missouri;Mercer County;1765;1829;95
+Missouri;Miller County;12325;11960;95
+Missouri;Mississippi County;4695;4756;99
+Missouri;Moniteau County;7144;7155;95
+Missouri;Monroe County;4422;4354;95
+Missouri;Montgomery County;5739;5770;99
+Missouri;Morgan County;9453;9241;95
+Missouri;New Madrid County;7176;7708;93
+Missouri;Newton County;28228;27874;95
+Missouri;Nodaway County;9832;10208;95
+Missouri;Oregon County;4688;4891;95
+Missouri;Osage County;7447;7428;95
+Missouri;Ozark County;4818;4720;95
+Missouri;Pemiscot County;5592;6637;84
+Missouri;Perry County;9335;9156;95
+Missouri;Pettis County;18964;18974;95
+Missouri;Phelps County;19451;20023;95
+Missouri;Pike County;7655;7734;95
+Missouri;Platte County;58404;58523;99
+Missouri;Polk County;15070;14854;95
+Missouri;Pulaski County;14258;14647;95
+Missouri;Putnam County;2330;2458;95
+Missouri;Ralls County;5633;5517;95
+Missouri;Randolph County;10702;10800;95
+Missouri;Ray County;11533;11533;99
+Missouri;Reynolds County;3218;3354;95
+Missouri;Ripley County;5641;5743;98
+Missouri;St. Charles County;220238;222175;99
+Missouri;St. Clair County;5172;5172;99
+Missouri;Ste. Genevieve County;9370;8871;95
+Missouri;St. Francois County;27758;25893;95
+Missouri;St. Louis County;527244;581544;91
+Missouri;Saline County;9489;9528;99
+Missouri;Schuyler County;1976;2005;99
+Missouri;Scotland County;1958;1985;99
+Missouri;Scott County;17623;17748;99
+Missouri;Shannon County;3875;4090;95
+Missouri;Shelby County;3329;3355;99
+Missouri;Stoddard County;13305;13924;95
+Missouri;Stone County;18310;18000;95
+Missouri;Sullivan County;2450;2719;90
+Missouri;Taney County;26062;26240;99
+Missouri;Texas County;11276;11478;95
+Missouri;Vernon County;9096;9009;95
+Missouri;Warren County;18281;16536;95
+Missouri;Washington County;9877;2284;99
+Missouri;Wayne County;5809;6036;95
+Missouri;Webster County;18689;18776;99
+Missouri;Worth County;1095;1098;95
+Missouri;Wright County;8675;8737;99
+Missouri;St. Louis city;131408;131765;99
+Montana;Beaverhead County;5655;5664;99
+Montana;Big Horn County;4677;5191;90
+Montana;Blaine County;3117;3135;99
+Montana;Broadwater County;4058;4069;99
+Montana;Carbon County;7022;7045;99
+Montana;Carter County;857;937;91
+Montana;Cascade County;37407;39841;94
+Montana;Chouteau County;2965;2985;99
+Montana;Custer County;5864;5878;99
+Montana;Daniels County;1009;1188;85
+Montana;Dawson County;4826;4837;99
+Montana;Deer Lodge County;4870;5005;95
+Montana;Fallon County;1555;1751;89
+Montana;Fergus County;6456;7000;92
+Montana;Flathead County;59701;54863;95
+Montana;Gallatin County;70821;62885;95
+Montana;Garfield County;813;845;95
+Montana;Glacier County;5674;5709;99
+Montana;Golden Valley County;503;565;89
+Montana;Granite County;2094;2095;95
+Montana;Hill County;7167;4897;99
+Montana;Jefferson County;8169;8191;99
+Montana;Judith Basin County;1338;1434;93
+Montana;Lake County;16580;15699;95
+Montana;Lewis and Clark County;42439;40409;95
+Montana;Liberty County;1083;1166;93
+Montana;Lincoln County;11526;10418;95
+Montana;McCone County;1117;1251;89
+Montana;Madison County;6083;6113;99
+Montana;Meagher County;1112;1151;95
+Montana;Mineral County;2551;2263;95
+Montana;Missoula County;71572;69651;95
+Montana;Musselshell County;2870;2711;95
+Montana;Park County;11574;10730;95
+Montana;Petroleum County;350;351;99
+Montana;Phillips County;2371;2500;95
+Montana;Pondera County;0;3135;0
+Montana;Powder River County;1129;1240;91
+Montana;Powell County;3178;3187;99
+Montana;Prairie County;730;830;88
+Montana;Ravalli County;28485;26368;95
+Montana;Richland County;5745;5789;99
+Montana;Roosevelt County;3993;4019;99
+Montana;Rosebud County;3745;3782;99
+Montana;Sanders County;7585;7651;99
+Montana;Sheridan County;2012;2275;88
+Montana;Silver Bow County;18921;18973;99
+Montana;Stillwater County;5694;5711;99
+Montana;Sweet Grass County;2448;2441;95
+Montana;Teton County;3685;3706;99
+Montana;Toole County;2115;2123;99
+Montana;Treasure County;0;537;0
+Montana;Valley County;4248;4350;95
+Montana;Wheatland County;770;1171;66
+Montana;Wibaux County;585;642;91
+Montana;Yellowstone County;80084;81192;95
+New Hampshire;Alton;3886;3729;95
+New Hampshire;Barnstead;2904;2763;95
+New Hampshire;Belmont;4009;3903;95
+New Hampshire;Center Harbor;788;762;95
+New Hampshire;Gilford;5214;5259;99
+New Hampshire;Gilmanton;2462;2402;95
+New Hampshire;Laconia;8880;8564;95
+New Hampshire;Meredith;4375;4401;99
+New Hampshire;New Hampton;1527;1452;95
+New Hampshire;Sanbornton;2015;2022;95
+New Hampshire;Tilton;2019;1975;95
+New Hampshire;Albany;445;426;95
+New Hampshire;Bartlett;2142;2059;95
+New Hampshire;Brookfield;536;478;95
+New Hampshire;Chatham;244;229;95
+New Hampshire;Conway;5843;5538;95
+New Hampshire;Eaton;305;301;95
+New Hampshire;Effingham;924;899;95
+New Hampshire;Freedom;1080;1016;95
+New Hampshire;Harts Location;43;36;95
+New Hampshire;Jackson;785;728;95
+New Hampshire;Madison;1683;1692;99
+New Hampshire;Moultonborough;3611;3392;95
+New Hampshire;Ossipee;2466;2324;95
+New Hampshire;Sandwich;1122;1080;95
+New Hampshire;Tamworth;1762;1768;99
+New Hampshire;Tuftonboro;1890;1767;95
+New Hampshire;Wakefield;3292;2930;95
+New Hampshire;Wolfeboro;4729;4541;95
+New Hampshire;Alstead;1178;1124;95
+New Hampshire;Chesterfield;2365;2373;95
+New Hampshire;Dublin;1089;1148;95
+New Hampshire;Fitzwilliam;1304;1367;95
+New Hampshire;Gilsum;505;494;95
+New Hampshire;Harrisville;756;753;95
+New Hampshire;Hinsdale;1850;1900;95
+New Hampshire;Jaffrey;3013;3006;99
+New Hampshire;Keene;12721;13136;97
+New Hampshire;Marlborough;1249;1278;95
+New Hampshire;Marlow;488;484;95
+New Hampshire;Nelson;437;488;90
+New Hampshire;Richmond;700;730;95
+New Hampshire;Rindge;3577;3780;95
+New Hampshire;Roxbury;136;166;82
+New Hampshire;Stoddard;919;839;95
+New Hampshire;Sullivan;397;434;91
+New Hampshire;Surry;552;548;95
+New Hampshire;Swanzey;3744;4189;89
+New Hampshire;Troy;1097;1097;95
+New Hampshire;Walpole;2322;2280;95
+New Hampshire;Westmoreland;1111;1193;93
+New Hampshire;Winchester;1965;1942;95
+New Hampshire;Berlin;4025;4388;92
+New Hampshire;Carroll;534;636;84
+New Hampshire;Clarksville;180;184;95
+New Hampshire;Colebrook;1056;1088;95
+New Hampshire;Columbia;364;366;95
+New Hampshire;Dalton;519;528;95
+New Hampshire;Dixville;5;5;100
+New Hampshire;Dummer;184;184;95
+New Hampshire;Errol;222;211;95
+New Hampshire;Gorham;1662;1672;99
+New Hampshire;Jefferson;657;642;95
+New Hampshire;Lancaster;1719;1714;95
+New Hampshire;Milan;792;794;95
+New Hampshire;Millsfield;22;22;100
+New Hampshire;Northumberland;1043;1056;95
+New Hampshire;Pittsburg;541;531;95
+New Hampshire;Randolph;272;266;95
+New Hampshire;Shelburne;248;274;91
+New Hampshire;Stark;292;317;92
+New Hampshire;Stewartstown;393;413;95
+New Hampshire;Stratford;296;291;95
+New Hampshire;Wentworth's Location;20;20;95
+New Hampshire;Whitefield;1302;1189;95
+New Hampshire;Alexandria;1068;1005;95
+New Hampshire;Ashland;1193;1183;95
+New Hampshire;Bath;613;572;95
+New Hampshire;Benton;233;201;95
+New Hampshire;Bethlehem;1639;1538;95
+New Hampshire;Bridgewater;848;766;95
+New Hampshire;Bristol;1846;1734;95
+New Hampshire;Campton;2107;1997;95
+New Hampshire;Canaan;2056;2065;95
+New Hampshire;Dorchester;229;228;95
+New Hampshire;Easton;233;206;95
+New Hampshire;Ellsworth;76;61;95
+New Hampshire;Enfield;2737;2767;95
+New Hampshire;Franconia;806;806;95
+New Hampshire;Grafton;778;754;95
+New Hampshire;Groton;375;345;95
+New Hampshire;Hanover;6838;8481;81
+New Hampshire;Haverhill;2110;2243;94
+New Hampshire;Hebron;517;456;95
+New Hampshire;Holderness;1475;1394;95
+New Hampshire;Landaff;259;264;95
+New Hampshire;Lebanon;7837;7785;95
+New Hampshire;Lincoln;907;892;95
+New Hampshire;Lisbon;790;755;95
+New Hampshire;Littleton;3098;3051;95
+New Hampshire;Lyman;379;334;95
+New Hampshire;Lyme;1273;1324;95
+New Hampshire;Monroe;535;522;95
+New Hampshire;Orange;191;191;95
+New Hampshire;Orford;823;789;95
+New Hampshire;Piermont;439;457;95
+New Hampshire;Plymouth;3314;4049;82
+New Hampshire;Rumney;943;929;95
+New Hampshire;Sugar Hill;482;449;95
+New Hampshire;Thornton;1689;1713;99
+New Hampshire;Warren;476;491;95
+New Hampshire;Waterville;368;276;95
+New Hampshire;Wentworth;618;554;95
+New Hampshire;Woodstock;852;814;95
+New Hampshire;Amherst;7978;8592;93
+New Hampshire;Antrim;1567;1584;99
+New Hampshire;Bedford;14668;15390;95
+New Hampshire;Bennington;822;878;94
+New Hampshire;Brookline;3596;3428;95
+New Hampshire;Deering;1144;1136;95
+New Hampshire;Francestown;1129;1083;95
+New Hampshire;Goffstown;10121;10029;99
+New Hampshire;Greenfield;1001;1001;95
+New Hampshire;Greenville;1051;1030;95
+New Hampshire;Hancock;1276;1320;95
+New Hampshire;Hillsborough;3230;3730;87
+New Hampshire;Hollis;5643;5960;95
+New Hampshire;Hudson;14454;14641;99
+New Hampshire;Litchfield;5346;5430;95
+New Hampshire;Lyndeborough;1133;1164;95
+New Hampshire;Manchester;50103;56940;88
+New Hampshire;Mason;949;939;95
+New Hampshire;Merrimack;16572;16997;95
+New Hampshire;Milford;8879;9092;98
+New Hampshire;Mont Vernon;1756;1675;95
+New Hampshire;Nashua;44532;49039;91
+New Hampshire;New Boston;3887;3934;99
+New Hampshire;New Ipswich;3115;3093;95
+New Hampshire;Pelham;8753;8463;95
+New Hampshire;Peterborough;4316;4272;95
+New Hampshire;Sharon;272;277;95
+New Hampshire;Temple;946;945;95
+New Hampshire;Weare;5496;5535;95
+New Hampshire;Wilton;2446;2450;95
+New Hampshire;Windsor;127;137;93
+New Hampshire;Allenstown;2270;2423;94
+New Hampshire;Andover;1587;1530;95
+New Hampshire;Boscawen;2023;2043;95
+New Hampshire;Bow;5506;5512;99
+New Hampshire;Bradford;1061;1079;95
+New Hampshire;Canterbury;1727;1717;95
+New Hampshire;Chichester;1726;1746;95
+New Hampshire;Concord;23521;25424;93
+New Hampshire;Danbury;724;725;95
+New Hampshire;Dunbarton;2016;2073;95
+New Hampshire;Epsom;2907;2891;95
+New Hampshire;Franklin;4089;4178;98
+New Hampshire;Henniker;2659;2923;91
+New Hampshire;Hill;633;590;95
+New Hampshire;Hooksett;8527;9292;92
+New Hampshire;Hopkinton;4158;4220;95
+New Hampshire;Loudon;3720;3629;99
+New Hampshire;Newbury;1647;1481;95
+New Hampshire;New London;3123;3136;99
+New Hampshire;Northfield;2628;2510;95
+New Hampshire;Pembroke;4302;4325;99
+New Hampshire;Pittsfield;2079;2140;95
+New Hampshire;Salisbury;919;867;95
+New Hampshire;Sutton;1351;1354;95
+New Hampshire;Warner;1931;1953;95
+New Hampshire;Webster;1228;1258;95
+New Hampshire;Wilmot;957;969;95
+New Hampshire;Atkinson;5077;5104;99
+New Hampshire;Auburn;3883;3879;95
+New Hampshire;Brentwood;2870;2826;95
+New Hampshire;Candia;2764;2816;98
+New Hampshire;Chester;3425;3271;95
+New Hampshire;Danville;2783;2836;95
+New Hampshire;Deerfield;3194;3155;95
+New Hampshire;Derry;17721;17894;99
+New Hampshire;East Kingston;1662;1700;95
+New Hampshire;Epping;4306;4437;97
+New Hampshire;Exeter;10215;10336;99
+New Hampshire;Fremont;2826;2995;94
+New Hampshire;Greenland;2882;2774;95
+New Hampshire;Hampstead;5829;5958;95
+New Hampshire;Hampton;11412;10895;95
+New Hampshire;Hampton Falls;1690;1679;95
+New Hampshire;Kensington;1541;1528;95
+New Hampshire;Kingston;4064;4102;99
+New Hampshire;Londonderry;15757;15536;95
+New Hampshire;New Castle;918;873;95
+New Hampshire;Newfields;1252;1215;95
+New Hampshire;Newington;635;632;95
+New Hampshire;Newmarket;5902;5751;95
+New Hampshire;Newton;2964;3005;95
+New Hampshire;North Hampton;3440;3364;95
+New Hampshire;Northwood;2829;2854;95
+New Hampshire;Nottingham;3489;3295;95
+New Hampshire;Plaistow;4537;4865;93
+New Hampshire;Portsmouth;14389;14360;99
+New Hampshire;Raymond;5905;5914;95
+New Hampshire;Rye;4427;4267;95
+New Hampshire;Salem;17653;17679;95
+New Hampshire;Sandown;3953;3933;95
+New Hampshire;Seabrook;4886;4818;95
+New Hampshire;South Hampton;644;647;95
+New Hampshire;Stratham;5437;5207;95
+New Hampshire;Windham;9742;9688;95
+New Hampshire;Barrington;5932;5599;95
+New Hampshire;Dover;18992;19013;99
+New Hampshire;Durham;7495;7810;96
+New Hampshire;Farmington;3408;3309;95
+New Hampshire;Lee;2922;2805;95
+New Hampshire;Madbury;1288;1221;95
+New Hampshire;Middleton;1032;985;95
+New Hampshire;Milton;2511;2456;95
+New Hampshire;New Durham;1833;1862;98
+New Hampshire;Rochester;16711;16013;95
+New Hampshire;Rollinsford;1717;1696;95
+New Hampshire;Somersworth;6022;6071;99
+New Hampshire;Strafford;2750;2802;98
+New Hampshire;Acworth;562;606;93
+New Hampshire;Charlestown;2456;2544;95
+New Hampshire;Claremont;5744;6050;95
+New Hampshire;Cornish;1141;1131;95
+New Hampshire;Croydon;504;471;95
+New Hampshire;Goshen;476;481;95
+New Hampshire;Grantham;2393;2235;95
+New Hampshire;Langdon;408;428;95
+New Hampshire;Lempster;708;747;95
+New Hampshire;Newport;3096;3188;95
+New Hampshire;Plainfield;1654;1633;95
+New Hampshire;Springfield;880;897;95
+New Hampshire;Sunapee;2412;2283;95
+New Hampshire;Unity;877;875;95
+New Hampshire;Washington;796;753;95
+North Carolina;Alamance County;84704;85000;95
+North Carolina;Alexander County;20084;20088;99
+North Carolina;Alleghany County;6048;5336;99
+North Carolina;Anson County;11205;11500;95
+North Carolina;Ashe County;15679;15720;95
+North Carolina;Avery County;9316;9660;95
+North Carolina;Beaufort County;26084;28032;93
+North Carolina;Bertie County;9654;9676;99
+North Carolina;Bladen County;16935;17307;95
+North Carolina;Brunswick County;88962;90000;95
+North Carolina;Buncombe County;160146;173684;92
+North Carolina;Burke County;44110;45576;95
+North Carolina;Cabarrus County;115856;118000;95
+North Carolina;Caldwell County;42293;43000;95
+North Carolina;Camden County;5913;5900;95
+North Carolina;Carteret County;42283;44365;95
+North Carolina;Caswell County;11943;11962;99
+North Carolina;Catawba County;82599;84725;95
+North Carolina;Chatham County;48254;49811;95
+North Carolina;Cherokee County;16273;16606;95
+North Carolina;Chowan County;7739;8773;88
+North Carolina;Clay County;6807;6828;99
+North Carolina;Cleveland County;50920;51095;99
+North Carolina;Columbus County;26050;26263;95
+North Carolina;Craven County;52714;55192;95
+North Carolina;Cumberland County;145905;159383;92
+North Carolina;Currituck County;15886;16006;99
+North Carolina;Dare County;23841;23994;99
+North Carolina;Davidson County;84716;87658;95
+North Carolina;Davie County;25095;25477;95
+North Carolina;Duplin County;22462;22657;95
+North Carolina;Durham County;176940;176940;99
+North Carolina;Edgecombe County;25343;26198;95
+North Carolina;Forsyth County;198138;222890;89
+North Carolina;Franklin County;37075;38000;95
+North Carolina;Gaston County;113244;114000;95
+North Carolina;Gates County;5911;6000;95
+North Carolina;Graham County;4604;4606;99
+North Carolina;Granville County;31550;32031;95
+North Carolina;Greene County;8706;8715;99
+North Carolina;Guilford County;280094;280121;99
+North Carolina;Halifax County;25430;25485;99
+North Carolina;Harnett County;57527;58000;95
+North Carolina;Haywood County;36269;37000;95
+North Carolina;Henderson County;67752;68315;95
+North Carolina;Hertford County;10540;10590;99
+North Carolina;Hoke County;22016;21348;95
+North Carolina;Hyde County;2462;2470;99
+North Carolina;Iredell County;100913;102000;95
+North Carolina;Jackson County;21174;21191;99
+North Carolina;Johnston County;110200;111000;95
+North Carolina;Jones County;5478;5672;95
+North Carolina;Lee County;28704;29374;95
+North Carolina;Lenoir County;28152;28200;95
+North Carolina;Lincoln County;49825;50000;95
+North Carolina;McDowell County;22847;22891;99
+North Carolina;Macon County;20607;20767;95
+North Carolina;Madison County;12978;13233;95
+North Carolina;Martin County;12509;12454;99
+North Carolina;Mecklenburg County;563544;591071;95
+North Carolina;Mitchell County;8934;9481;94
+North Carolina;Montgomery County;12755;12770;99
+North Carolina;Moore County;57589;58000;95
+North Carolina;Nash County;52040;52000;95
+North Carolina;New Hanover County;129042;139881;92
+North Carolina;Northampton County;10049;9085;99
+North Carolina;Onslow County;69602;70117;99
+North Carolina;Orange County;84113;102925;82
+North Carolina;Pamlico County;7577;8045;94
+North Carolina;Pasquotank County;19481;21167;92
+North Carolina;Pender County;33813;33920;99
+North Carolina;Perquimans County;7457;7855;95
+North Carolina;Person County;21765;20837;99
+North Carolina;Pitt County;86254;86071;99
+North Carolina;Polk County;12222;12840;95
+North Carolina;Randolph County;72489;75619;95
+North Carolina;Richmond County;20573;20584;99
+North Carolina;Robeson County;43939;46534;94
+North Carolina;Rockingham County;47164;47153;99
+North Carolina;Rowan County;72735;75377;95
+North Carolina;Rutherford County;33938;35490;95
+North Carolina;Sampson County;28318;28397;95
+North Carolina;Scotland County;14523;14800;95
+North Carolina;Stanly County;33551;35033;95
+North Carolina;Stokes County;25507;26000;95
+North Carolina;Surry County;36310;37702;95
+North Carolina;Swain County;7005;7171;95
+North Carolina;Transylvania County;20235;20983;95
+North Carolina;Tyrrell County;1800;1850;95
+North Carolina;Union County;129328;129475;99
+North Carolina;Vance County;20925;21000;95
+North Carolina;Wake County;627709;659530;95
+North Carolina;Warren County;10224;10224;99
+North Carolina;Washington County;6179;6306;95
+North Carolina;Watauga County;31926;31466;99
+North Carolina;Wayne County;54878;60020;91
+North Carolina;Wilkes County;35085;35500;95
+North Carolina;Wilson County;40363;41000;95
+North Carolina;Yadkin County;19808;20000;95
+North Carolina;Yancey County;11326;10387;99
+North Dakota;Adams County;1203;1463;82
+North Dakota;Barnes County;5314;6255;85
+North Dakota;Benson County;1867;2453;76
+North Dakota;Billings County;527;690;76
+North Dakota;Bottineau County;3334;4034;83
+North Dakota;Bowman County;1478;2037;73
+North Dakota;Burke County;1032;1400;74
+North Dakota;Burleigh County;45516;55000;83
+North Dakota;Cass County;84441;92136;92
+North Dakota;Cavalier County;1949;2346;83
+North Dakota;Dickey County;2342;2880;81
+North Dakota;Divide County;1158;1390;83
+North Dakota;Dunn County;2090;2557;82
+North Dakota;Eddy County;1191;1403;85
+North Dakota;Emmons County;1698;2258;75
+North Dakota;Foster County;1665;1960;85
+North Dakota;Golden Valley County;943;1091;86
+North Dakota;Grand Forks County;30111;30915;97
+North Dakota;Grant County;1206;1595;76
+North Dakota;Griggs County;1204;1524;79
+North Dakota;Hettinger County;1135;1544;74
+North Dakota;Kidder County;1218;1569;78
+North Dakota;LaMoure County;2126;2491;85
+North Dakota;Logan County;902;1216;74
+North Dakota;McHenry County;2794;3215;87
+North Dakota;McIntosh County;1374;1733;79
+North Dakota;McKenzie County;5156;5326;95
+North Dakota;McLean County;4865;6059;80
+North Dakota;Mercer County;4118;5337;77
+North Dakota;Morton County;14460;18048;80
+North Dakota;Mountrail County;3933;4681;84
+North Dakota;Nelson County;1736;1957;89
+North Dakota;Oliver County;908;1159;78
+North Dakota;Pembina County;3167;3695;86
+North Dakota;Pierce County;1956;2473;79
+North Dakota;Ramsey County;5181;6048;86
+North Dakota;Ransom County;2393;2753;87
+North Dakota;Renville County;1275;1474;86
+North Dakota;Richland County;7657;8655;88
+North Dakota;Rolette County;3727;5166;72
+North Dakota;Sargent County;2038;2277;90
+North Dakota;Sheridan County;660;930;71
+North Dakota;Sioux County;1084;1404;77
+North Dakota;Slope County;385;495;78
+North Dakota;Stark County;13230;5669;95
+North Dakota;Steele County;1071;1180;91
+North Dakota;Stutsman County;9458;9939;95
+North Dakota;Towner County;1125;1337;84
+North Dakota;Traill County;4052;4484;90
+North Dakota;Walsh County;4556;5433;84
+North Dakota;Ward County;27144;31250;87
+North Dakota;Wells County;2060;2717;76
+North Dakota;Williams County;12902;14600;88
+Utah;Beaver County;2887;3021;95
+Utah;Box Elder County;25093;23287;95
+Utah;Cache County;53906;54465;95
+Utah;Carbon County;8513;9383;91
+Utah;Daggett County;557;614;91
+Utah;Davis County;165831;163325;95
+Utah;Duchesne County;8195;8192;95
+Utah;Emery County;4554;5250;87
+Utah;Garfield County;2638;2766;95
+Utah;Grand County;4872;5349;91
+Utah;Iron County;22596;20832;95
+Utah;Juab County;5783;5900;95
+Utah;Kane County;3659;4136;88
+Utah;Millard County;5154;6186;83
+Utah;Morgan County;6067;6127;95
+Utah;Piute County;800;923;87
+Utah;Rich County;1283;1309;95
+Utah;Salt Lake County;516423;494264;95
+Utah;San Juan County;6327;6427;95
+Utah;Sanpete County;12089;11994;95
+Utah;Sevier County;9559;10212;94
+Utah;Summit County;24541;24356;95
+Utah;Tooele County;30393;28000;95
+Utah;Uintah County;14303;15100;95
+Utah;Utah County;263704;237830;95
+Utah;Wasatch County;16763;14302;95
+Utah;Washington County;83990;77000;95
+Utah;Wayne County;1510;1677;90
+Utah;Weber County;104819;100346;95
+Vermont;Jamaica;574;575;95
+Vermont;Jay;293;274;95
+Vermont;Jericho;3635;3724;95
+Vermont;Johnson;1569;1600;95
+Vermont;Kirby;328;295;95
+Vermont;Landgrove;135;115;95
+Vermont;Leicester;540;551;95
+Vermont;Lemington;50;62;81
+Vermont;Lincoln;945;886;95
+Vermont;Londonderry;1106;1055;95
+Vermont;Barnet;1078;1079;95
+Vermont;Lowell;476;485;95
+Vermont;Ludlow;1214;1236;95
+Vermont;Lunenburg;619;650;95
+Vermont;Lyndon;2405;2500;95
+Vermont;Maidstone;137;131;95
+Vermont;Manchester;2724;2680;95
+Vermont;Marlboro;643;644;95
+Vermont;Marshfield;954;968;95
+Vermont;Mendon;776;715;95
+Vermont;Middlebury;4272;4350;95
+Vermont;Barre;3772;3800;95
+Vermont;Middlesex;1243;1275;95
+Vermont;Middletown Springs;547;560;95
+Vermont;Milton;6093;5678;95
+Vermont;Monkton;1400;1346;95
+Vermont;Montgomery;747;737;95
+Vermont;Montpelier;5115;5344;95
+Vermont;Moretown;1188;1180;95
+Vermont;Morgan;389;381;95
+Vermont;Morristown;3182;3220;95
+Vermont;Mount Holly;834;856;95
+Vermont;Barre Town;4757;4668;95
+Vermont;Mount Tabor;115;106;95
+Vermont;Newark;340;337;95
+Vermont;Newbury;1195;1192;95
+Vermont;Newfane;1117;1200;93
+Vermont;New Haven;1164;1207;95
+Vermont;Newport;1805;1737;95
+Vermont;Newport Town;768;787;95
+Vermont;Northfield;2448;2490;95
+Vermont;North Hero;700;696;95
+Vermont;Norton;106;104;95
+Vermont;Barton;1270;1300;95
+Vermont;Norwich;2490;2600;95
+Vermont;Orange;612;603;95
+Vermont;Orwell;742;726;95
+Vermont;Panton;417;379;95
+Vermont;Pawlet;876;900;95
+Vermont;Peacham;516;547;94
+Vermont;Peru;295;259;95
+Vermont;Pittsfield;330;329;95
+Vermont;Pittsford;1711;1710;95
+Vermont;Plainfield;806;757;95
+Vermont;Belvidere;176;177;95
+Vermont;Plymouth;371;390;95
+Vermont;Pomfret;669;670;95
+Vermont;Poultney;1629;1613;95
+Vermont;Pownal;1742;1823;95
+Vermont;Proctor;950;945;95
+Vermont;Putney;1487;1468;95
+Vermont;Randolph;2583;2524;95
+Vermont;Reading;439;418;95
+Vermont;Readsboro;416;424;95
+Vermont;Richford;926;926;95
+Vermont;Bennington;6897;7141;95
+Vermont;Richmond;2918;2980;95
+Vermont;Ripton;361;375;95
+Vermont;Rochester;722;726;95
+Vermont;Rockingham;2466;2530;95
+Vermont;Roxbury;431;420;95
+Vermont;Royalton;1462;1475;95
+Vermont;Rupert;432;438;95
+Vermont;Rutland;7871;7949;95
+Vermont;Rutland Town;2462;2574;95
+Vermont;Ryegate;638;618;95
+Vermont;Benson;579;569;95
+Vermont;St. Albans;3019;3020;95
+Vermont;St. Albans Town;3778;3800;95
+Vermont;St. George;447;401;95
+Vermont;St. Johnsbury;3350;3400;95
+Vermont;Salisbury;678;622;95
+Vermont;Sandgate;249;243;95
+Vermont;Searsburg;62;65;95
+Vermont;Shaftsbury;2196;2300;95
+Vermont;Sharon;893;846;95
+Vermont;Sheffield;368;339;95
+Vermont;Berkshire;707;682;95
+Vermont;Shelburne;5358;5360;95
+Vermont;Sheldon;993;1010;95
+Vermont;Killington;825;740;95
+Vermont;Shoreham;738;728;95
+Vermont;Shrewsbury;678;740;92
+Vermont;South Burlington;12507;12700;95
+Vermont;South Hero;1306;1330;95
+Vermont;Springfield;4405;4550;95
+Vermont;Stamford;509;531;95
+Vermont;Stannard;112;112;95
+Vermont;Berlin;1536;1519;95
+Vermont;Starksboro;1020;1043;95
+Vermont;Stockbridge;471;477;95
+Vermont;Stowe;3388;3400;95
+Vermont;Strafford;794;776;95
+Vermont;Stratton;190;160;95
+Vermont;Sudbury;386;357;95
+Vermont;Sunderland;643;675;95
+Vermont;Sutton;521;477;95
+Vermont;Swanton;3202;2990;95
+Vermont;Thetford;1888;1900;95
+Vermont;Bethel;1132;1117;95
+Vermont;Addison;862;868;95
+Vermont;Tinmouth;334;332;95
+Vermont;Topsham;638;643;95
+Vermont;Townshend;748;764;95
+Vermont;Troy;783;724;95
+Vermont;Tunbridge;858;849;95
+Vermont;Underhill;2209;2200;95
+Vermont;Vergennes;1481;1500;95
+Vermont;Vernon;1248;1350;92
+Vermont;Vershire;421;408;95
+Vermont;Victory;55;73;75
+Vermont;Bloomfield;129;123;95
+Vermont;Waitsfield;1230;1244;95
+Vermont;Walden;577;581;95
+Vermont;Wallingford;1279;1320;95
+Vermont;Waltham;326;308;95
+Vermont;Wardsboro;491;439;95
+Vermont;Warren;1250;1300;95
+Vermont;Washington;601;600;95
+Vermont;Waterbury;3469;3520;95
+Vermont;Waterford;818;824;95
+Vermont;Waterville;451;420;95
+Vermont;Bolton;780;755;95
+Vermont;Weathersfield;1786;1766;95
+Vermont;Wells;726;800;91
+Vermont;West Fairlee;351;333;95
+Vermont;Westfield;343;339;95
+Vermont;Westford;1413;1450;95
+Vermont;West Haven;150;149;95
+Vermont;Westminster;1770;1820;95
+Vermont;Westmore;233;242;95
+Vermont;Weston;454;467;95
+Vermont;West Rutland;1154;1160;95
+Vermont;Bradford;1474;1550;95
+Vermont;West Windsor;836;792;95
+Vermont;Weybridge;604;606;95
+Vermont;Wheelock;447;441;95
+Vermont;Whiting;216;221;95
+Vermont;Whitingham;748;719;95
+Vermont;Williamstown;1851;1726;95
+Vermont;Williston;6829;6900;95
+Vermont;Wilmington;1134;1172;95
+Vermont;Windham;279;308;91
+Vermont;Windsor;1859;1898;95
+Vermont;Braintree;709;664;95
+Vermont;Winhall;667;579;95
+Vermont;Winooski;3623;3720;95
+Vermont;Wolcott;919;894;95
+Vermont;Woodbury;588;590;95
+Vermont;Woodford;191;198;95
+Vermont;Woodstock;2087;2118;95
+Vermont;Worcester;621;665;93
+Vermont;Brandon;2172;2200;95
+Vermont;Brattleboro;6475;6680;95
+Vermont;Bridgewater;593;585;95
+Vermont;Bridport;739;734;95
+Vermont;Brighton;551;627;88
+Vermont;Bristol;2236;2157;95
+Vermont;Albany;536;504;95
+Vermont;Brookfield;844;839;95
+Vermont;Brookline;329;321;95
+Vermont;Brownington;477;438;95
+Vermont;Brunswick;65;67;95
+Vermont;Burke;908;922;95
+Vermont;Burlington;21721;21209;95
+Vermont;Cabot;874;888;95
+Vermont;Calais;1130;1160;95
+Vermont;Cambridge;2184;2250;95
+Vermont;Canaan;488;482;95
+Vermont;Alburgh;1069;1025;95
+Vermont;Castleton;2129;2170;95
+Vermont;Cavendish;780;768;95
+Vermont;Charleston;524;520;95
+Vermont;Charlotte;2850;2920;95
+Vermont;Chelsea;730;739;95
+Vermont;Chester;1742;1732;95
+Vermont;Chittenden;844;841;95
+Vermont;Clarendon;1448;1500;95
+Vermont;Colchester;9499;9550;95
+Vermont;Concord;627;632;95
+Vermont;Andover;357;370;95
+Vermont;Corinth;821;758;95
+Vermont;Cornwall;847;825;95
+Vermont;Coventry;562;571;95
+Vermont;Craftsbury;763;769;95
+Vermont;Danby;748;775;95
+Vermont;Danville;1466;1466;95
+Vermont;Derby;2471;2520;95
+Vermont;Dorset;1391;1420;95
+Vermont;Dover;950;877;95
+Vermont;Dummerston;1320;1380;95
+Vermont;Arlington;1458;1420;95
+Vermont;Duxbury;909;879;95
+Vermont;East Haven;140;164;85
+Vermont;East Montpelier;1741;1803;95
+Vermont;Eden;622;628;95
+Vermont;Elmore;607;650;93
+Vermont;Enosburgh;1270;1365;93
+Vermont;Essex;13278;13500;95
+Vermont;Fairfax;2977;3020;95
+Vermont;Fairfield;1136;1200;95
+Vermont;Fair Haven;1298;1330;95
+Vermont;Athens;210;186;95
+Vermont;Fairlee;629;634;95
+Vermont;Fayston;954;985;95
+Vermont;Ferrisburg;1815;1850;95
+Vermont;Fletcher;820;785;95
+Vermont;Franklin;763;703;95
+Vermont;Georgia;2899;2685;95
+Vermont;Glover;659;655;95
+Vermont;Goshen;129;138;93
+Vermont;Grafton;411;437;94
+Vermont;Granby;43;49;88
+Vermont;Bakersfield;696;669;95
+Vermont;Grand Isle;1400;1450;95
+Vermont;Granville;164;166;95
+Vermont;Greensboro;483;477;95
+Vermont;Groton;537;541;95
+Vermont;Guildhall;171;161;95
+Vermont;Guilford;1328;1370;95
+Vermont;Halifax;475;485;95
+Vermont;Hancock;171;178;95
+Vermont;Hardwick;1564;1541;95
+Vermont;Hartford;6162;5753;95
+Vermont;Baltimore;139;141;95
+Vermont;Hartland;2157;2210;95
+Vermont;Highgate;1716;1750;95
+Vermont;Hinesburg;3054;3100;95
+Vermont;Holland;351;338;95
+Vermont;Hubbardton;421;436;95
+Vermont;Huntington;1401;1388;95
+Vermont;Hyde Park;1718;1715;95
+Vermont;Ira;258;273;95
+Vermont;Irasburg;665;620;95
+Vermont;Isle La Motte;349;343;95
+Vermont;Barnard;664;637;95
+Washington;Adams County;5105;5512;93
+Washington;Asotin County;11754;11386;95
+Washington;Benton County;101372;92031;95
+Washington;Chelan County;42246;38387;95
+Washington;Clallam County;48561;45376;95
+Washington;Clark County;270703;230184;95
+Washington;Columbia County;2387;2598;92
+Washington;Cowlitz County;59362;52546;95
+Washington;Douglas County;21059;18500;95
+Washington;Ferry County;4286;4141;95
+Washington;Franklin County;31904;27278;95
+Washington;Garfield County;1457;1470;95
+Washington;Grant County;37091;32598;95
+Washington;Grays Harbor County;37657;32987;95
+Washington;Island County;52981;49307;95
+Washington;Jefferson County;24348;23317;95
+Washington;King County;1189206;1148274;95
+Washington;Kitsap County;156439;142965;95
+Washington;Kittitas County;25407;21798;95
+Washington;Klickitat County;12987;12384;95
+Washington;Lewis County;44991;42800;95
+Washington;Lincoln County;6898;6753;95
+Washington;Mason County;36393;32470;95
+Washington;Okanogan County;20559;19655;95
+Washington;Pacific County;13934;12323;95
+Washington;Pend Oreille County;8381;8400;95
+Washington;Pierce County;457897;395000;95
+Washington;San Juan County;12890;12390;95
+Washington;Skagit County;67845;64363;95
+Washington;Skamania County;7051;6115;99
+Washington;Snohomish County;432208;393499;95
+Washington;Spokane County;291031;261333;95
+Washington;Stevens County;26620;26079;95
+Washington;Thurston County;163424;148822;95
+Washington;Wahkiakum County;2920;2712;95
+Washington;Walla Walla County;27964;29232;95
+Washington;Whatcom County;136947;126124;95
+Washington;Whitman County;18905;19901;95
+Washington;Yakima County;94572;89413;95
+West Virginia;Barbour County;6552;6659;95
+West Virginia;Berkeley County;47897;49100;95
+West Virginia;Boone County;8992;8983;99
+West Virginia;Braxton County;5545;5599;95
+West Virginia;Brooke County;10409;10631;98
+West Virginia;Cabell County;36185;36900;95
+West Virginia;Calhoun County;2886;2879;95
+West Virginia;Clay County;3218;3313;95
+West Virginia;Doddridge County;2964;3124;95
+West Virginia;Fayette County;16691;16794;99
+West Virginia;Gilmer County;2580;2797;92
+West Virginia;Grant County;5157;5452;95
+West Virginia;Greenbrier County;15724;15374;95
+West Virginia;Hampshire County;9827;9872;99
+West Virginia;Hancock County;13511;13882;95
+West Virginia;Hardy County;6120;6207;95
+West Virginia;Harrison County;30068;30559;95
+West Virginia;Jackson County;12751;13320;95
+West Virginia;Jefferson County;26818;27300;95
+West Virginia;Kanawha County;82003;83259;95
+West Virginia;Lewis County;7325;7621;95
+West Virginia;Lincoln County;7578;7773;95
+West Virginia;Logan County;12745;13595;94
+West Virginia;McDowell County;6280;6823;92
+West Virginia;Marion County;25631;25170;95
+West Virginia;Marshall County;13397;14445;93
+West Virginia;Mason County;11039;11205;95
+West Virginia;Mercer County;24947;25103;99
+West Virginia;Mineral County;12589;12720;95
+West Virginia;Mingo County;9653;10461;92
+West Virginia;Monongalia County;41757;42000;95
+West Virginia;Monroe County;6223;6386;95
+West Virginia;Morgan County;8347;8365;95
+West Virginia;Nicholas County;10517;10440;95
+West Virginia;Ohio County;19654;19732;95
+West Virginia;Pendleton County;3583;3563;95
+West Virginia;Pleasants County;3392;3500;95
+West Virginia;Pocahontas County;3851;4011;95
+West Virginia;Preston County;14008;14700;95
+West Virginia;Putnam County;28370;28410;99
+West Virginia;Raleigh County;32191;32371;95
+West Virginia;Randolph County;11718;11964;95
+West Virginia;Ritchie County;4082;4483;91
+West Virginia;Roane County;5660;5772;95
+West Virginia;Summers County;5524;5600;95
+West Virginia;Taylor County;7146;7146;95
+West Virginia;Tucker County;3751;3799;95
+West Virginia;Tyler County;3766;4019;94
+West Virginia;Upshur County;9930;10140;95
+West Virginia;Wayne County;16351;16700;95
+West Virginia;Webster County;3339;3276;95
+West Virginia;Wetzel County;6553;6892;95
+West Virginia;Wirt County;2544;2664;95
+West Virginia;Wood County;38077;38487;99
+West Virginia;Wyoming County;8320;8614;95
