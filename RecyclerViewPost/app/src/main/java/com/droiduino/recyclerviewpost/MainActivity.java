@@ -1,4 +1,4 @@
-package com.droiduino.recyclerviewcourse;
+package com.droiduino.recyclerviewpost;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Data
+        // Dummy News Headlines
         ArrayList<String> headline = new ArrayList<>();
         headline.add("Why some Japanese feel like foreigners in their own country");
         headline.add("Swiss set to vote on immigration");
@@ -32,20 +32,23 @@ public class MainActivity extends AppCompatActivity {
         headline.add("Court sentences two men to death after ruling a fire that killed 260 people was arson");
         headline.add("This data is ringing 'alarm bells'");
         headline.add("Have sex, live longer, heart attack victims told");
-//        headline.add("Device16");
-//        headline.add("Device17");
-//        headline.add("Device18");
-//        headline.add("Device19");
-//        headline.add("Device20");
 
-        // Instantiate UI
+        // Dummy News Snippets
+        String newsSnippet = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut " +
+                "labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut " +
+                "aliquip ex ea commodo consequat. ";
+
+
+        // Instantiate RecyclerView
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
 
         // Setting Up RecyclerView
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        // Connect RecyclerView to the List Adapter
-        ListAdapter listAdapter = new ListAdapter(headline);
+        // Connect RecyclerView to the List Adapter and Data Sources
+        ListAdapter listAdapter = new ListAdapter(headline,newsSnippet);
+
+        // Display the RecyclerView
         recyclerView.setAdapter(listAdapter);
 
     }

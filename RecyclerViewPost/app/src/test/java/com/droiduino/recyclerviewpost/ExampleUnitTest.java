@@ -1,4 +1,4 @@
-package com.droiduino.recyclerviewcourse;
+package com.droiduino.recyclerviewpost;
 
 import org.junit.Test;
 

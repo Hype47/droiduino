@@ -33,17 +33,26 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/stock_photo" />
+
                 <TextView
                     android:id="@+id/textTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:text="TextView"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textBody"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
