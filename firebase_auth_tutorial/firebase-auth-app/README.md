@@ -1,24 +1,26 @@
 # firebase-auth-app
 
-## Project setup
+## Install Vue
 ```
-npm install
+npm install vue
 ```
 
-### Compiles and hot-reloads for development
+## Run the Vue app
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+## Install Firebase
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm install firebase
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Get Vue version
+```
+vue --version
+```
+
+## Get Firebase version
+```
+firebase --version
+```
