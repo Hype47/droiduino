@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "77923856511",
+    "project_id": "fir-auth-tutorial-63b33",
+    "storage_bucket": "fir-auth-tutorial-63b33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77923856511:android:a876d9fe083c4d27c1cf4a",
+        "android_client_info": {
+          "package_name": "com.droiduino.firebaseauthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77923856511-bicn360csndd5qincmcqdgmrkh8q0l4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsWfwE8DRkyM0lkA5J_D1d5uS1nuPhyCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77923856511-bicn360csndd5qincmcqdgmrkh8q0l4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
