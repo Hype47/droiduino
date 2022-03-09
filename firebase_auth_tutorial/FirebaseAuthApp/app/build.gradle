@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
+    // Add this code below
     id 'com.google.gms.google-services'
-//    apply plugin: 'com.google.gms.google-services'
 }
 
 android {
@@ -37,6 +37,9 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    // Implementing Firebase and Firebase Authorization services
     implementation platform('com.google.firebase:firebase-bom:29.1.0')
     implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.android.gms:play-services-auth:20.1.0'
 }
